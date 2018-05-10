@@ -1,17 +1,62 @@
+/*
+header
+*/
+
+.header {
+  /*display: flex;*/
+  width: 100%;
+  flex-wrap: wrap;
+  color: #2d3c49;
+}
+
+#logo {
+  display: inline-block;
+  width: calc(150px - 10px);
+  float: left;
+}
+
+.grid {
+  padding: 50px;
+}
+/*
+navigation
+*/
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
 }
 
 li {
   float: left;
+
 }
 
-li a {
+.nav {
   display: block;
   color: lightblue;
   text-align: center;
-  padding: 48px;
+  padding: 10px;
 
+}
+/*
+picture
+*/
+#picture {
+  width: 100%;
+}
+/*
+projects
+*/
+
+.grid {
+  color: #7d97ad;
+}
+
+.projects {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 10px;
 }
