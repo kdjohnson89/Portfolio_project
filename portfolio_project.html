@@ -1,40 +1,47 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+  <title>Portfolio Project</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="portfolio_project2.css">
   <link rel="stylesheet" href="portfolio_project3.css">
 </head>
 <body>
-<div class="header">
-  <img id="logo" src="logo.png" alt="owl logo">
-  <h1>Kayla Johnson</h1>
-  <h2>Front-End Guru</h2>
-  <hr>
-</div>
-<div>
-  <img id="picture" src="NYC.png" alt="picture">
-</div>
-<div class="grid">
-    <h2>Featured Work</h2>
+  <article>
+    <header class="header">
+      <img id="logo" src="logo.png" alt="owl logo">
+      <h1>Kayla Johnson</h1>
+      <h3>Front-End Web Developer</h3>
+    <hr>
+    </header>
+  </article>
+<section class="main">
+  <img id="picture" src="fend.png" alt="picture">
+</section>
+<section class="grid">
+    <h3>Featured Work</h3>
+    <hr class="featured">
     <div class="projects">
-      <figure>
-      <img src="puffin.png" alt="puffin">
-      <figcaption>Animal Trading Card</figcaption>
-      <p><a href="https://github.com/kdjohnson89/Animal-Trading-Card">www.github.com</a></p>
-    </figure>
-      <figure>
-      <img src="pam.png" alt="pixel art maker">
-      <figcaption>Pixel Art Maker</figcaption>
-      <p><a href="https://codepen.io/kaydeejay18/full/eMQMGQ/">www.codepen.com</a></p>
+      <figure class="atc">
+        <img src="puffin.png" alt="puffin">
+        <figcaption>Animal Trading Card</figcaption>
+        <p><a href="https://github.com/kdjohnson89/Animal-Trading-Card">www.github.com</a></p>
       </figure>
-      <figure>
+      <figure class="pam">
+        <img src="pam.png" alt="pixel art maker">
+        <figcaption>Pixel Art Maker</figcaption>
+        <p><a href="https://codepen.io/kaydeejay18/full/eMQMGQ/">www.codepen.com</a></p>
+      </figure>
+      <figure class= "tbd">
         <img src="TBD.png" alt="more to come soon">
         <figcaption>Work in progress</figcaption>
         <p>Come back soon for more updates!</p>
       </figure>
     </div>
-</div>
+  </section>
+  <footer>
+    <p>Created by: Kayla Johnson</p>
+  </footer>
 </body>
 </html>
