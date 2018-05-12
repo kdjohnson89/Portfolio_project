@@ -9,16 +9,14 @@ header
 */
 
 .header {
-  /*display: flex;*/
   width: 100%;
-  flex-wrap: wrap;
   color: #2f1d16;
   text-align: right;
   font-family: Georgia, serif;
 }
 
 #logo {
-  display: inline-flex;
+  /*display: inline-flex;*/
   width: 125px;
   float: left;
 }
